@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  http_proxy:
+    image: jkernech/http-status
+    ports:
+      - 8080:8080
